@@ -62,21 +62,67 @@ public class Main {
         var productInOneCar  = productsWeight / 2;
         System.out.println("Продуктов в одной машине теперь " + productInOneCar + "кг!");
 
+
+
+
+
         var dog = 8.0;
-        System.out.println(dog - 3.5);
+
+        System.out.println(dog);
+
+        dog = dog + 4;
+
+        System.out.println(dog);
+
+        dog = dog - 3.5;
+
+        System.out.println(dog);
+
+
 
         var cat = 3.6;
-        System.out.println(cat - 1.6);
+
+        System.out.println(cat);
+
+        cat = cat + 4;
+
+        System.out.println(cat);
+
+        cat = cat - 1.6;
+
+        System.out.println(cat);
+
+
+
 
         var paper = 763789;
-        System.out.println(paper - 7639);
+
+        System.out.println(paper);
+
+        paper = paper + 4;
+
+        System.out.println(paper);
+
+        paper = paper - 7639;
+
+        System.out.println(paper);
+
+
+
 
         var friend = 19;
+
         System.out.println(friend);
 
-        System.out.println(friend + 2);
-        friend = friend / 7;
+        friend = friend + 2;
+
         System.out.println(friend);
+
+        friend = friend / 7;
+
+        System.out.println(friend);
+
+
 
         var frog = 3.5;
         frog = frog * 10;
@@ -108,7 +154,7 @@ public class Main {
 
         var additionalEmployees = 94;
         var newTotalEmployees = totalEmployees + additionalEmployees;
-        var newTotalHours = newTotalEmployees + hoursPerEmployees;
+        var newTotalHours = newTotalEmployees * hoursPerEmployees;
         System.out.println("Если в компании работает " + newTotalEmployees + " человек, то всего " + newTotalHours + " часов может быть поделено между сотрудниками ");
 
 
