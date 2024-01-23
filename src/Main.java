@@ -125,12 +125,19 @@ public class Main {
 
 
         var frog = 3.5;
+
         frog = frog * 10;
+
         System.out.println(frog);
+
         frog = frog / 3.5;
+
         System.out.println(frog);
+
         frog = frog + 4;
+
         System.out.println(frog);
+
 
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
